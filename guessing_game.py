@@ -43,7 +43,6 @@ def start_game():
             new_high_score = high_score.append(counter)
             
             if new_round.lower() != 'no':
-                counter += 1
                 start_game() 
             #let player know game is ending or over
             else:
@@ -53,5 +52,11 @@ def start_game():
 # Kick off the program by calling the start_game function.
 start_game()
 
+"""
+TODO for Krista's overachieving game:
+-figure out how to store a high score
+-figure out how to print the high score when the game is called for a new round
+-figure out how to store the high score unless someone does better
+"""
  
             
